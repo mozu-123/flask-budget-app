@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.result{
+    font-size: 25px;
+    
+}
+a.income {
+    padding: 15px;
+    color: black;
+    background-color: gainsboro;
+    display: inline;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow:  0px 5px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+ 
+}
+
+a.income:hover{
+    opacity: 1;
+}
+
+a.income:active{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: none;
+}
+
+a.outlay {
+    padding: 15px;
+    color: black;
+    background-color:gainsboro;
+    display: inline;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow:  0px 5px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+
+
+}
+
+a.outlay:hover{
+    opacity: 1;
+}
+
+a.outlay:active{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: none;
+}
+
+span{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}

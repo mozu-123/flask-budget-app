@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+
+article{
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.update_button{
+    float: left;
+    padding-left: 10px;
+}
+
+.trash_button{
+    float: right;
+    padding-right: 10px;
+}
+
+span{
+    font-size: 20px;
+}
