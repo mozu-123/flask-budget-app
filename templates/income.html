@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static' , filename = 'css/income.css') }}">    
+    <title>Document</title>
+</head>
+<body>
+    <h1>収入</h1>
+    <form action="" method="POST">
+        <div class="amount">
+            <span>金額</span>
+            <input class="amount_input" type="number" name="number">
+            <br><br>
+        </div>
+        <div class="category">
+            <span>カテゴリー</span>
+            <select name="category" class="category_input">
+                <option value="給料">給料</option>
+                <option value="その他">その他</option>
+            </select>
+            <br><br>
+        </div>
+        <div class="date">
+            <span>日時</span>
+            <input class="date_input" type="date" name="date">
+            <br><br>
+        </div>
+        <div class="memo">
+            <span>メモ</span>
+            <textarea name="memo" ></textarea>
+            <br><br>
+
+        </div>
+        <div class="income_button">
+            <input type="submit" value="保存">
+        </div>
+    </form>
+</body>
+</html>

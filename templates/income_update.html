@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static' , filename = 'css/update.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>編集画面</h1>
+    <form  method="POST">
+        <div class="amount">
+           <span>金額</span>
+            <input type="number" class="amount_input" name="number" value="{{ number }}">     
+            <br><br>
+        </div>
+        <div class="category">
+            <span>カテゴリー</span>
+            <select name="category" >
+                <option value="給料">給料</option>
+                <option value="その他" >その他</option>
+            </select>
+            <br><br>
+        </div>
+        <div class="date">
+            <span>日時</span>
+            <input type="date" class="date_input" name="date" value="{{ date }}" >
+            <br><br>
+        </div>
+        <div class="memo">
+            <span>メモ</span>
+            <textarea name="memo" >{{ memo }}</textarea>
+            <br><br>
+
+        </div>
+        <div class="income_button">
+            <input type="submit" value="更新">
+        </div>
+    </form>
+
+</body>
+</html>
