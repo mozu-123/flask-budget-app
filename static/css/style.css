@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+}
+
+a.income {
+    padding: 15px;
+    background-color: lightblue;
+    display: inline;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow:  0px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+a.income:hover{
+    opacity: 1;
+}
+
+a.income:active{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: none;
+}
+
+a.outlay {
+    padding: 15px;
+    background-color: lightcoral;
+    display: inline;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow:  0px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+a.outlay:hover{
+    opacity: 1;
+}
+
+a.outlay:active{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: none;
+}
+
+span{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
